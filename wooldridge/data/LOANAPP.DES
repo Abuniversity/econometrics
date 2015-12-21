@@ -1,0 +1,80 @@
+occ       loanamt   action    msa       suffolk   race      gender    appinc   
+typur     unit      married   dep       emp       yjob      self      atotinc  
+cototinc  hexp      price     other     liq       rep       gdlin     lines    
+mortg     cons      pubrec    hrat      obrat     fixadj    term      apr      
+prop      inss      inson     gift      cosign    unver     review    netw     
+unem      min30     bd        mi        old       vr        sch       black    
+hispan    male      reject    approve   mortno    mortperf  mortlat1  mortlat2 
+chist     multi     loanprc   thick     white     obwhte    
+
+  Obs:  1989
+
+  1. occ                       occupancy
+  2. loanamt                   loan amt in thousands
+  3. action                    type of action taken
+  4. msa                       msa number of property
+  5. suffolk                   =1 if property in Suffolk County
+  6. race                      race of applicant
+  7. gender                    gender of applicant
+  8. appinc                    applicant income, $1000s
+  9. typur                     type of purchaser of loan
+ 10. unit                      number of units in property
+ 11. married                   =1 if applicant married
+ 12. dep                       number of dependents
+ 13. emp                       years employed in line of work
+ 14. yjob                      years at this job
+ 15. self                      self-employment dummy
+ 16. atotinc                   total monthly income
+ 17. cototinc                  coapp total monthly income
+ 18. hexp                      propose housing expense
+ 19. price                     purchase price
+ 20. other                     other financing, $1000s
+ 21. liq                       liquid assets
+ 22. rep                       no. of credit reports
+ 23. gdlin                     credit history meets guidelines
+ 24. lines                     no. of credit lines on reports
+ 25. mortg                     credit history on mortgage paym
+ 26. cons                      credit history on consumer stuf
+ 27. pubrec                    =1 if filed bankruptcy
+ 28. hrat                      housing exp, % total inccome
+ 29. obrat                     other oblgs,  % total income
+ 30. fixadj                    fixed or adjustable rate?
+ 31. term                      term of loan in months
+ 32. apr                       appraised value
+ 33. prop                      type of property
+ 34. inss                      PMI sought
+ 35. inson                     PMI approved
+ 36. gift                      gift as down payment
+ 37. cosign                    is there a cosigner
+ 38. unver                     unverifiable info
+ 39. review                    number of times reviewed
+ 40. netw                      net worth
+ 41. unem                      unemployment rate by industry
+ 42. min30                     =1 if minority pop. > 30%
+ 43. bd                        =1 if boarded-up val > MSA med
+ 44. mi                        =1 if tract inc > MSA median
+ 45. old                       =1 if applic age > MSA median
+ 46. vr                        =1 if tract vac rte > MSA med
+ 47. sch                       =1 if > 12 years schooling
+ 48. black                     =1 if applicant black
+ 49. hispan                    =1 if applicant Hispanic
+ 50. male                      =1 if applicant male
+ 51. reject                    =1 if action == 3
+ 52. approve                   =1 if action == 1 or 2
+ 53. mortno                    no mortgage history
+ 54. mortperf                  no late mort. payments
+ 55. mortlat1                  one or two late payments
+ 56. mortlat2                  > 2 late payments
+ 57. chist                     =0 if accnts deliq. >= 60 days
+ 58. multi                     =1 if two or more units
+ 59. loanprc                   amt/price
+ 60. thick                     =1 if rep > 2
+ 61. white                     =1 if applicant white
+ 62. obwhte                    obrat*awhite
+Sorted by:  
+
+. log close
+
+
+
+

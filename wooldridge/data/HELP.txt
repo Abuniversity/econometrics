@@ -1,0 +1,18 @@
+Data Sets
+to accompany
+Introductory Econometrics: A Modern Approach
+by Jeffrey M. Wooldridge
+
+Instructions:
+
+PLEASE RESTART YOUR COMPUTER TO COMPLETE INSTALLATION
+
+From the "Start" menu, select "Programs", then 
+"Wooldridge", then "Data Sets" to access 
+the files. 
+
+For technical support, please contact our 
+technology support group. You can e-mail us at
+support@kdc.com, call us at 800-423-0563, or 
+fax us at 606-647-5045.
+
